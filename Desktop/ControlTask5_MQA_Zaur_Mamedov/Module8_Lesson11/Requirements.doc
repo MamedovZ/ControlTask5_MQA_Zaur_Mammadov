@@ -1,0 +1,283 @@
+Date: Sun, 4 Feb 2024 19:45:50 +0000 (UTC)
+Message-ID: <1834494342.15.1707075950032@8369f6ed91b0>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14_1447468277.1707075950032"
+
+------=_Part_14_1447468277.1707075950032
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Requirements</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Requirements</h1>
+    <div class=3D"Section1">
+        <p> </p>
+<p class=3D"media-group"><img height=3D"250" style=3D"margin: 2px; border: =
+1px solid #ddd; box-sizing: border-box; vertical-align: text-bottom;" src=
+=3D"2b9276badb99f5e5b630a3103c1377283742561c91af1ea7a3fb76f560397d7a" width=
+=3D"250"></p>
+    </div>
+</body>
+</html>
+------=_Part_14_1447468277.1707075950032
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/2b9276badb99f5e5b630a3103c1377283742561c91af1ea7a3fb76f560397d7a
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAEYElEQVR4Xu3cDVPaShiG4W1C2BhIgILFFtE9//9POT09U2t1HBU/
+UDTNJiQkC/WUTElE7mummc2TF/QlH0zNghAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+sAU+mMFmuC8vtpn9xrNlPZjZFnMbjmtmv+M61h/XboGmYyavcZpmshGWGWzEHx/tMfvFTLaYNIPX
+rVleUjV7/U3a4dbXOglLazybSXDQnFqD/XBqbtCWyzehptb9O/v+MRTPE39V70vlW8y8bg3l52Tw
+WfrFLTGzfJsZvQSNo3TYsYP8lkQ1rddymet1v6bDq04vv6VKDTOowt39Yjyt5TeojnEE27n/NAX6
+Qmtsf78H/F4jXKxc17bX62j9jaD1XUTru6i21qt5A3tNba3Xj9Z3Ea3vIlrfRbS+i2i9Pp7nmVFF
+amldN/s0v5NsO3dir5bu62j9/sqNdnY3WfFfhAivigXVqKN14XXEXffyQOi/yF/cCdGpZa/XcuMp
+tB7EtWe3rMGlH0atO/fFO+rV3HiqpfX2jfckHoVv31o3T0K07r3inbdqWq+G+XeJscxNl3Gt0WIl
+ZpZvs6Ve+o1WOvRlP79FWyrfYsu9jK3u0N3bc4fdhrnPV5VvrxW9BE67IXuNtrNi5t6K8q21Zi9r
+lpdUy/v620DrG/a81tRPt5q39Wpat9Zq5rmiX8oMNsIK15keXFHrK95aNmF3J4UDAAAAAAAAACqm
+zKAkZQallPyA3eg0eqBjXWeBEuK76E8Wwd+gTszkbyp5o+O813xs7OVnwJycPA4v/ufu8IkZ1Kpk
+69Pzm/D2ppiFX/fjnd6XUrb1dLCPMpQDlR6fyUBF4aJEHUeD0SBa6PklWaoHlhuVK6WEH60kc04C
++TF+Vn3HKEnzSYW81qfcvSSlF4d6r4/kKPBlU4gDOQ7GUhmt6yazEiX94IuMF4X0IDi07fkDZdON
+niZ+ipYci6E81Pk8TZNKRTskPw1KCfHhSOrPosuhSF6EeFc5ymhdf2g/K1G+EG680PVZ2kkH+nH5
+xsZypKvUIp0nZZS8zEXnrTcQj7l1pRety2hxGv375yE6Bm/Finl5/+pFVjIT4iFe6Ctalj5Fg2/p
+Na7/cz90v80ffHzS/FFIF0ml4uN7TkV7fSjbIreX4oPCVfNXxUsG8TgridfSRTHNisVR09anQawd
+6pHO0zRJqtYqtq6DIOrgeB5lB3zcU0flWk9L4rV0UUz1MkznzqY/qS87+lmTgjidJ2WUvMLLAzcY
+zfTPVLn0dhad7L3Tgev2o9+qPYkuc/r5Z98Pg3H+nnlWUrCcuoGnX0E3GOg1JVqTwVV3Ek82nKe5
+ZG0lW+9dhtPz+Mwu2I9O19NPN2E4iV6Di9bZ1Zn+7hUn/Dk90+dCKispWE5fLm+V6E3CafLVBsEs
+/E/88Gf6O02SNJ+8PcoM3oySe/092OHWAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBd+wVD
+9toZA42V2QAAAABJRU5ErkJggg==
+------=_Part_14_1447468277.1707075950032--
